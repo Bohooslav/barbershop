@@ -1,0 +1,54 @@
+@media screen and (max-width: 600px) {
+	.navsvg {
+		padding: 16px;
+    display: flex;
+		align-items: center;
+		fill: #ffeeee;
+		width: 64px;
+		height: 64px;
+	}
+
+	.navsvg p {
+		font-size: 36px;
+		margin: 0 16px;
+		color: #ffeeee;
+		padding-top: 4px;
+	}
+
+	nav a {
+		padding: 0;
+	}
+
+	#about_us {
+		flex-direction: column;
+	}
+
+	#about_us article {
+		margin: 64px 16px;
+		max-width: 100%;
+	}
+
+	#about_us h2 {
+		text-align: center;
+	}
+
+	#about_us p {
+		text-align: left;
+		text-indent: 32px;
+	}
+
+	#about_us aside {
+		margin: auto auto -128px;
+	}
+
+	#call {
+		margin: 0 16px;
+	}
+
+	#pricing ul {
+		grid-template-columns: 1fr;
+	}
+	#pricing li {
+		margin: 3vh 3vw;
+	}
+}

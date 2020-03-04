@@ -1,0 +1,365 @@
+* {
+	box-sizing: border-box;
+	scrollbar-color: #47f1 #00000000;
+	scrollbar-width: auto;
+	margin: 0;
+	padding: 0;
+	/* transition: all 300ms ease 0s;
+	transition-delay: 0ms; */
+	scroll-behavior: smooth;
+	-webkit-overflow-scrolling: touch;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+*::selection {
+	text-decoration-color: #fee;
+	color: #fee;
+	background-color: navy;
+}
+
+::-webkit-scrollbar {
+	width: 12px;
+}
+
+::-webkit-scrollbar-track {
+	background: #38383D00;
+}
+
+::-webkit-scrollbar-thumb {
+	background: navy;
+	border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #47f2;
+}
+
+:focus {
+	outline: none;
+}
+
+body {
+	font-family: sans, sans-serif;
+	font-size: 16px;
+	text-align: center;
+	background: #fee;
+	color: #04060c;
+	min-height: 100vh;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+@keyframes text-came {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: "Vollkorn",
+		sans-serif;
+}
+
+.App {
+	min-height: 100vh;
+	-webkit-animation: text-came 2s ease both;
+	animation: text-came 2s ease both;
+	position: relative;
+}
+
+#top_wrapper {
+	position: relative;
+	height: 200vh;
+	background-color: #000;
+}
+
+#top_background {
+	background-image: url('images/BEAUTY-SALONS-IN-TBILISI-3-2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	position: sticky;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 100vh;
+	width: 100%;
+}
+
+#top_wrapper article {
+	color: #fee;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+
+#top_wrapper h1 {
+	font-size: 3em;
+	letter-spacing: 0.3em;
+	font-weight: 600;
+}
+
+#top_wrapper p {
+	letter-spacing: 0.3em;
+	font-family: "Vollkorn",
+		sans-serif;
+	opacity: 0.8;
+	font-size: 1.3em;
+}
+
+nav {
+	background-color: #140a06;
+	color: #fee;
+	font-family: "Vollkorn",
+		sans-serif;
+	display: flex;
+	letter-spacing: 0.3em;
+	position: sticky;
+	z-index: 3;
+	top: 0;
+}
+
+.first_in_nav {
+	margin-right: auto;
+}
+
+nav a {
+	padding: 32px;
+	font-size: 14px;
+	color: #fee;
+}
+
+nav a:hover {
+	color: #fff;
+	transition: color 300ms ease 0s;
+	transition-delay: 0ms;
+}
+
+#about_us {
+	display: flex;
+	color: #fee;
+	background-image: radial-gradient(circle at 20% 50%, #000b 0%, #000f 100%), url('images/barber_shop_20.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+#about_us article {
+	text-align: right;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 2vw;
+	margin-left: auto;
+	max-width: 640px;
+	max-width: 50%;
+}
+
+h2 {
+	letter-spacing: 0.3em;
+	font-size: 2.4em;
+	font-weight: 700;
+}
+
+#about_us h2 {
+	margin-bottom: 32px;
+}
+
+#about_us p {
+	text-indent: 2vw;
+	opacity: 0.9;
+	line-height: 1.5;
+}
+
+#about_us aside {
+	margin-right: auto;
+	padding: 2vw;
+}
+
+#about_us aside img {
+	width: 360px;
+	max-width: 100%;
+}
+
+#hours {
+	padding: 128px 0;
+	margin: 128px 0;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+}
+
+#hours h2 {
+	color: #644B40;
+}
+
+#subheader {
+	opacity: 0.5;
+}
+
+#hours ul {
+	display: flex;
+	margin: 64px auto;
+	justify-content: center;
+}
+
+#hours li {
+	pad: 16px;
+	margin: 0 3vw;
+	color: #322620;
+}
+
+.day {
+	letter-spacing: 0.3em;
+	font-family: "Vollkorn",
+		sans-serif;
+	font-weight: 800;
+}
+
+.divider {
+	margin: auto 0;
+	color: #988;
+}
+
+.schedule {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: #655;
+	white-space: pre;
+}
+
+#call {
+	display: block;
+	line-height: 1.6;
+	margin: auto;
+	padding: 16px 32px;
+	background-color: #44342c;
+	border-radius: 4px;
+	transform: none;
+	transition: all 300ms ease 0s;
+	transition-delay: 0ms;
+}
+
+#call:hover {
+	transform: scale(1.1);
+	box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14),
+		0 9px 46px 8px rgba(0, 0, 0, 0.12),
+		0 11px 15px -7px rgba(0, 0, 0, 0.2);
+	background-color: #322620;
+}
+
+#exhortation {
+	color: #B79C8F;
+	letter-spacing: 0.2em;
+}
+
+#phone_nomber {
+	color: #fee;
+	font-weight: 700;
+}
+
+#pricing {
+	color: #fee;
+	background-image: radial-gradient(circle at 20% 50%, #000b 0%, #000f 100%),
+		url('images/f453e7deb0f9679952ccdc243a52f84a.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 128px 4px;
+}
+
+#pricing ul {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	margin: 32px 0 0;
+}
+
+#pricing li {
+	margin: 2vh 3vw;
+}
+
+.price {
+	color: #edd;
+	font-family: Cambria,
+		Cochin,
+		Georgia,
+		Times,
+		'Times New Roman',
+		serif;
+}
+
+footer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 42px 4px;
+	background-color: #140a06;
+	/* color: #ffe; */
+	color: #dde;
+}
+
+footer h3 {
+	letter-spacing: 0.2em;
+	font-size: 1em;
+	font-weight: 500;
+}
+
+footer p {
+	margin: 8px 0 16px;
+	font-size: 0.8em;
+}
+
+footer a {
+	color: #dde;
+	font-weight: bold;
+	font-style: normal;
+	display: block;
+	transition: color 300ms ease 0s;
+	transition-delay: 0ms;
+}
+
+footer a:hover {
+	color: #fee;
+}
+
+@media screen and (max-width: 730px) {
+	nav a {
+		padding: 32px 16px;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	#hours ul {
+		flex-wrap: wrap;
+	}
+
+	#hours li {
+		margin: 2vh 3vw;
+	}
+}

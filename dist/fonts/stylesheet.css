@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Vollkorn';
+    src: local('Vollkorn Italic'), local('Vollkorn-Italic'),
+        url('Vollkorn-Italic.woff2') format('woff2'),
+        url('Vollkorn-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Vollkorn';
+    src: local('Vollkorn Black Italic'), local('Vollkorn-BlackItalic'),
+        url('Vollkorn-BlackItalic.woff2') format('woff2'),
+        url('Vollkorn-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Vollkorn';
+    src: local('Vollkorn Bold'), local('Vollkorn-Bold'),
+        url('Vollkorn-Bold.woff2') format('woff2'),
+        url('Vollkorn-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vollkorn';
+    src: local('Vollkorn Black'), local('Vollkorn-Black'),
+        url('Vollkorn-Black.woff2') format('woff2'),
+        url('Vollkorn-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vollkorn';
+    src: local('Vollkorn Regular'), local('Vollkorn-Regular'),
+        url('Vollkorn-Regular.woff2') format('woff2'),
+        url('Vollkorn-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Vollkorn';
+    src: local('Vollkorn SemiBold Italic'), local('Vollkorn-SemiBoldItalic'),
+        url('Vollkorn-SemiBoldItalic.woff2') format('woff2'),
+        url('Vollkorn-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Vollkorn';
+    src: local('Vollkorn Bold Italic'), local('Vollkorn-BoldItalic'),
+        url('Vollkorn-BoldItalic.woff2') format('woff2'),
+        url('Vollkorn-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Vollkorn';
+    src: local('Vollkorn SemiBold'), local('Vollkorn-SemiBold'),
+        url('Vollkorn-SemiBold.woff2') format('woff2'),
+        url('Vollkorn-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
