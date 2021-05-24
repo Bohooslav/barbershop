@@ -1,13 +1,12 @@
 # Hello World Imba
 
-Tiny template for testing out Imba using [CSS modules][0]. Click [Use this
-template][1] on GitHub to create a new repository with this template.
+https://bohooslav.github.io/barbershop
 
 ## Getting started
 
 ```
-git clone https://github.com/imba/hello-world-imba
-cd hello-world-imba
+git clone https://github.com/Bohooslav/barbershop
+cd barbershop
 yarn # npm install
 ```
 
